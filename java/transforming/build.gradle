@@ -2,7 +2,6 @@ group 'group'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'application'
 
 sourceCompatibility = 1.7
 
@@ -17,8 +16,23 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
 
-task fatJar(type: Jar) {
-    baseName = project.name + '-all'
-    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
-    with jar
+task( runCK12BookParser, dependsOn: jar, type: JavaExec ) {
+    main = 'com.talkwalker.kaggle.transforming.CK12BookParser'
+    classpath = sourceSets.main.runtimeClasspath
+    systemProperties System.getProperties()
+    args System.getProperty("exec.args").split()
+}
+
+task( runCK12LessonsParser, dependsOn: jar, type: JavaExec ) {
+    main = 'com.talkwalker.kaggle.transforming.CK12LessonsParser'
+    classpath = sourceSets.main.runtimeClasspath
+    systemProperties System.getProperties()
+    args System.getProperty("exec.args").split()
+}
+
+task( runCK12DocumentParser, dependsOn: jar, type: JavaExec ) {
+    main = 'com.talkwalker.kaggle.transforming.CK12LessonsParser'
+    classpath = sourceSets.main.runtimeClasspath
+    systemProperties System.getProperties()
+    args System.getProperty("exec.args").split()
 }

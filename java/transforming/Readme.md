@@ -19,3 +19,9 @@ either XHTML or plain text, depending on the requirements. For XTML **JSOUP** is
       "title": "This is a title",
       "text": "This is the text"
     }
+
+## Building & Running
+
+	gradle runCK12BookParser -Dexec.args="<input-directory> <output-file>"
+	gradle runCK12LessonsParser -Dexec.args="<input-directory> <output-file>"
+	gradle runCK12DocumentParser -Dexec.args="<input-directory> <output-file>"
