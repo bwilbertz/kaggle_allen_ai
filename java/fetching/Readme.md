@@ -1,1 +1,7 @@
-...to be completed...
+# Fetching the data
+
+## CK12 books
+The ck12 folder contains a file named books-urls.txt. This file has one url per book per line.
+
+## quizlet
+In the quizlet folder: one file with all the ids of the used flashcards. You can use the [quizlet API](https://quizlet.com/api/2.0/docs) to get back the data from the provided IDs
