@@ -5,7 +5,7 @@
 # Login   <marche_m@epitech.eu>
 #
 # Started on  Thu Jan 21 22:20:15 2016 Maxime MARCHES
-# Last update Tue Feb 23 00:06:49 2016 Maxime MARCHES
+# Last update Tue Feb 23 00:18:24 2016 Maxime MARCHES
 #
 
 import sys
@@ -16,9 +16,13 @@ import time
 
 debug = False
 shouldSleep = False
+defaultOutputFolder = "/tmp"
 
 def getOutputFolder():
-    return sys.argv[3]
+    if len(sys.argv) > 3 :
+        return sys.argv[3]
+    return defaultOutputFolder
+
 
 def getFileName(setId):
     return '%s.json' % setId
@@ -87,7 +91,7 @@ def getData():
 
 if __name__ == "__main__":
     if len(sys.argv) < 3 :
-        print "usage:", sys.argv[0], "[input] [apiToken] [ouput folder]"
+        print "usage:", sys.argv[0], "input apiToken [ouputFolder]"
         exit
     else:
         getData()
