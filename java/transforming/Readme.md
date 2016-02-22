@@ -22,6 +22,6 @@ either XHTML or plain text, depending on the requirements. For XTML **JSOUP** is
 
 ## Building & Running
 
-	gradle runCK12BookParser -Dexec.args="<input-directory> <output-file>"
-	gradle runCK12LessonsParser -Dexec.args="<input-directory> <output-file>"
-	gradle runCK12DocumentParser -Dexec.args="<input-directory> <output-file>"
+	gradle runCK12BookParser -Dexec.args="../tmp/ck12/ ../tmp/ck12.txt"
+	gradle runCK12LessonsParser -Dexec.args="../tmp/ck12_lessons/ ../tmp/ck12.txt"
+	gradle runCK12DocumentParser -Dexec.args="../tmp/books/ ../tmp/books.txt"
