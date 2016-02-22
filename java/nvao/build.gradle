@@ -1,0 +1,29 @@
+group 'group'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'edu.stanford.nlp:stanford-corenlp:3.5.2'
+    compile 'edu.stanford.nlp:stanford-corenlp:3.5.2:models'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+task(processTraining, dependsOn: jar, type: JavaExec ) {
+    main = 'NVAO.ProcessQA'
+    classpath = sourceSets.main.runtimeClasspath
+    systemProperties System.getProperties()
+    args "../../R/input/training_set.tsv", "../../R/input/training_set.tsv.NVAO.out", "NVAO"
+}
+task(processTest, dependsOn: jar, type: JavaExec ) {
+    main = 'NVAO.ProcessQA'
+    classpath = sourceSets.main.runtimeClasspath
+    systemProperties System.getProperties()
+    args "../../R/input/test_set.tsv", "../../R/input/test_set.tsv.NVAO.out", "NVAO"
+}

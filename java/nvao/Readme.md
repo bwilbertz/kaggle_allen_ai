@@ -7,6 +7,8 @@ The main function of **nvao** package is to preprocess the text using **Stanford
 **ProcessQA**: process the QAsPair file
 
 # Usage
-Java -jar ProcessQA.jar INPUT_FILE OUTPUT_FILE POS_SET
+	
+        gradle processTraining
+        gradle processTest
 
 
