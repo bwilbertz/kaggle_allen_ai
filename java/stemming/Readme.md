@@ -7,4 +7,4 @@ This contains stemming code which will be called from R.
 ## Building
 
 	gradle fatJar
-        cp build/libs/* ../../R/libs/
+	cp build/libs/* ../../R/libs/
