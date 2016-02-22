@@ -15,6 +15,3 @@ https://upload.wikimedia.org/wikipedia/commons/a/a9/High_School_Engineering.pdf
 https://upload.wikimedia.org/wikipedia/commons/f/fe/High_School_Life_Science_1-9.pdf
 https://upload.wikimedia.org/wikipedia/commons/a/ab/High_School_Life_Science_10-19.pdf
 https://upload.wikimedia.org/wikipedia/commons/2/23/High_School_Life_Science_20-26.pdf
-https://dumps.wikimedia.org/simplewiki/20151020/simplewiki-20151020-pages-articles.xml.bz2
-https://dumps.wikimedia.org/enwiki/20151002/enwiki-20151002-pages-articles.xml.bz2
-https://dumps.wikimedia.org/enwikibooks/20151226/enwikibooks-20151226-pages-articles.xml.bz2

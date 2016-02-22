@@ -1,0 +1,3 @@
+https://dumps.wikimedia.org/simplewiki/20151020/simplewiki-20151020-pages-articles.xml.bz2
+https://dumps.wikimedia.org/enwiki/20151002/enwiki-20151002-pages-articles.xml.bz2
+https://dumps.wikimedia.org/enwikibooks/20151226/enwikibooks-20151226-pages-articles.xml.bz2
