@@ -5,7 +5,7 @@
 # Login   <marche_m@epitech.eu>
 #
 # Started on  Thu Jan 21 22:20:15 2016 Maxime MARCHES
-# Last update Tue Feb 23 00:18:24 2016 Maxime MARCHES
+# Last update Tue Feb 23 13:41:36 2016 Maxime MARCHES
 #
 
 import sys
@@ -91,7 +91,7 @@ def getData():
 
 if __name__ == "__main__":
     if len(sys.argv) < 3 :
-        print "usage:", sys.argv[0], "input apiToken [ouputFolder]"
+        print "usage:", sys.argv[0], "inputFile apiToken [ouputFolder]"
         exit
     else:
         getData()
