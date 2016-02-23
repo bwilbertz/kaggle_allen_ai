@@ -12,3 +12,6 @@ The main function of **nvao** package is to preprocess the text using **Stanford
         gradle processTest
 
 
+# License
+
+See LICENSE.md in the main directory of this project.
