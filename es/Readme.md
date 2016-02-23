@@ -1,5 +1,7 @@
 # create ElasticSearch indices
 
+(based on [stream2es](https://github.com/elastic/stream2es))
+
 Example Usage: 
 
 	cat example.json | ./index-json-docs.sh my-testing-index
