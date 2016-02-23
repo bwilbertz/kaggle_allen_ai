@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2016 bwilbertz
+Copyright (c) 2016 B. Wilbertz, C. Schank, M. Marches, M. Conrad, P. Gleis, R. Wang, S. Wagener
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

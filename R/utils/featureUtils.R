@@ -1,6 +1,5 @@
-# TODO: Add comment
 # 
-# Author: benedikt
+# Author: Benedikt Wilbertz
 ###############################################################################
 
 

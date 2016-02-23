@@ -1,7 +1,7 @@
 '''
 Created on 17.11.2015
 
-@author: benedikt
+@author: Benedikt Wilbertz
 '''
 
 import sys
