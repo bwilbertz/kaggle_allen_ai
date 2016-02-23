@@ -9,6 +9,7 @@ source("createInputFile.R")
 source("createInputFile_NVAO.R")
 
 # feature generation
+source("createBasicStatFeatures.R")
 # IR
 source("createQueryData.R")
 source("createQueryFeatures.R")
